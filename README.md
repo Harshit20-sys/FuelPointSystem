@@ -36,7 +36,7 @@ The **Fuel Point Management System** is a web-based Java application where **fue
 
 ## 📸 Screenshots
 
-> Dashboard]()
+ [Dashboard](https://github.com/Harshit20-sys/FuelPointSystem/blob/7a0d1ab203e5bc005ad49d103ada5c8cfa32ac7b/DASHBOARD.png)
 
 ### 👨‍💼 Owner Dashboard  
 ![Owner Dashboard](screenshots/owner_dashboard.png)
