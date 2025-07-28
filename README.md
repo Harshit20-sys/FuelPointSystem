@@ -1,64 +1,106 @@
-# ⛽ Fuel Point Management System
+# 🚀 Fuel Point Management System
 
-The Fuel Point Management System is a web-based platform designed to help fuel pump owners manage fuel offers and help customers discover the best fuel discounts nearby. It promotes smart fuel purchasing decisions and encourages competition among stations.
+The **Fuel Point Management System** is a web-based Java application where **fuel pump owners** can register their stations and post **time-based offers** on fuel types (Petrol, Diesel, CNG). Users can view offers near them, explore them on a map, and navigate using Google Maps with live location support.
 
-## 🚀 Features
+---
 
-### 👤 Owner Module
+## 🌟 Features
+
+### 🔐 Owner Module
 - Owner Registration & Login
-- Add Fuel Types (Petrol, Diesel, CNG)
-- Create, View, Edit & Delete Time-Based Fuel Offers
-- View Active Offers
+- Add available fuel types
+- Create/View/Edit/Delete time-bound fuel offers
+- Dashboard to manage offers
 
-### 🙋‍♂️ Public/User Module
-- View Nearby Fuel Stations
-- View Latest Offers
-- Get Directions to Any Station Using Live Location (via Google Maps)
+### 👤 User Module
+- View all active public fuel offers
+- See station details and offers in tabular view
+- Google Maps integration:
+  - View directions to station from live location
+  - Blue pin: User location | Red pin: Fuel station
 
-## 🧰 Tech Stack
+---
 
-| Layer     | Technology       |
-|-----------|------------------|
-| Frontend  | HTML, CSS        |
-| Backend   | Java (Servlets)  |
-| Database  | MySQL            |
-| Server    | Apache Tomcat 9  |
-| IDE       | Eclipse          |
-| Hosting   | GitHub           |
-| Mapping API | Google Maps Directions API |
+## 🛠️ Tech Stack
+
+| Layer        | Technology                |
+|--------------|---------------------------|
+| Frontend     | HTML, CSS (No JavaScript) |
+| Backend      | Java (Servlets, JSP)      |
+| Database     | MySQL                     |
+| Server       | Apache Tomcat 9.0         |
+| IDE          | Eclipse IDE               |
+| APIs Used    | Google Maps Direction API |
+
+---
 
 ## 📸 Screenshots
 
+> Dashboard]()
 
- ![Dashboard](https://github.com/Harshit20-sys/FuelPointSystem/blob/531476522407cf1ab87bc288e0e47c4a395d2d82/DASHBOARD.png) 
+### 👨‍💼 Owner Dashboard  
+![Owner Dashboard](screenshots/owner_dashboard.png)
 
-## 🗺️ Directions Integration
+### ➕ Add New Offer  
+![Add Offer](screenshots/add_offer.png)
 
-Fuel offers shown to users include a **"Get Directions"** button, which:
-- Automatically fetches the user's current location
-- Redirects to Google Maps with real-time directions to the fuel station
+### 👀 Public Offers (User View)  
+![Public Offers](screenshots/public_offers.png)
 
-> 🚨 Ensure browser location access is enabled for this to work.
+### 🗺️ Google Maps Directions  
+![Maps Directions](screenshots/maps_directions.png)
 
-## ⚙️ How to Run Locally
+---
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/fuel-point-management.git
+## 📂 Folder Structure
 
-PROJECT STRUCTURE.
-
-FuelPointSystem/
+FuelPointProject/
 ├── WebContent/
-│   ├── publicoffers.jsp
-│   ├── login.jsp
-│   ├── register.jsp
-│   └── ...
+│ ├── owner/ # JSP pages for fuel pump owner
+│ ├── public/ # JSP pages visible to users
+│ ├── CSS/ # Static stylesheets
+│
 ├── src/
-│   └── com.fuel.servlet/
-│       ├── AddFuelTypeServlet.java
-│       ├── CreateOfferServlet.java
-│       └── ...
-├── database/
-│   └── fuel_point_db.sql
-└── README.md
+│ └── com.fuel.servlet/ # Java Servlet files
+│ ├── RegisterOwnerServlet.java
+│ ├── AddFuelServlet.java
+│ ├── OfferServlets.java
+│
+└── database/
+└── fuel_point_db.sql # MySQL database script
+
+## ⚙️ How to Run the Project
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/fuel-point-project.git
+
+2. Import as a Dynamic Web Project into Eclipse IDE
+
+3. Setup MySQL:
+
+    * Create a new database: fuel_point
+
+    * Import fuel_point_db.sql from /database/ folder
+
+4. Configure DB credentials in DBUtil.java
+
+5. Start Apache Tomcat server (v9.0)
+
+6.  Run project and visit:
+   http://localhost:8080/FuelPointProject/
+
+🔮 Future Enhancements
+User login and bookmarking system
+
+Real-time fuel price tracking API integration
+
+Notification system for nearby deals
+
+Admin analytics dashboard
+
+
+📄 License
+This project is open-source and available for educational use.
+© 2025 Harshit Singh
+
