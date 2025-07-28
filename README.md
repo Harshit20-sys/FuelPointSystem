@@ -41,14 +41,11 @@ The **Fuel Point Management System** is a web-based Java application where **fue
 ### 👨‍💼 Owner Dashboard  
 ![Owner Dashboard](https://github.com/Harshit20-sys/FuelPointSystem/blob/defa4a3e4a5a84364e1d2c944c958a2a06a8b32a/Screenshot%202025-07-28%20082008.png)
 
-### ➕ Add New Offer  
-![Add Offer](screenshots/add_offer.png)
 
 ### 👀 Public Offers (User View)  
-![Public Offers](screenshots/public_offers.png)
+![Public Offers](https://github.com/Harshit20-sys/FuelPointSystem/blob/e897ab8d5012b04b7ed930ea6714b936932a79f0/Screenshot%202025-07-28%20082101.png)
 
-### 🗺️ Google Maps Directions  
-![Maps Directions](screenshots/maps_directions.png)
+
 
 ---
 
