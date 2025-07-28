@@ -30,8 +30,7 @@ The Fuel Point Management System is a web-based platform designed to help fuel p
 ## 📸 Screenshots
 
 
-| ![Dashboard](<img width="1919" height="1079" alt="DASHBOARD" src="https://github.com/user-attachments/assets/488e3cce-84d6-4783-bf6b-3afe4533357b" />
-) 
+| ![Dashboard](C:\Users\harsh\OneDrive\Pictures\Screenshots\DASHBOARD.png) 
 
 ## 🗺️ Directions Integration
 
