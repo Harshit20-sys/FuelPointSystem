@@ -1,0 +1,73 @@
+<web-app>
+    <servlet>
+        <servlet-name>RegisterOwnerServlet</servlet-name>
+        <servlet-class>com.fuel.servlet.RegisterOwnerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegisterOwnerServlet</servlet-name>
+        <url-pattern>/RegisterOwnerServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+    <servlet-name>LoginOwnerServlet</servlet-name>
+    <servlet-class>com.fuel.servlet.LoginOwnerServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>LoginOwnerServlet</servlet-name>
+    <url-pattern>/LoginOwnerServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+    <servlet-name>AddStationServlet</servlet-name>
+    <servlet-class>com.fuel.servlet.AddStationServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AddStationServlet</servlet-name>
+    <url-pattern>/AddStationServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+    <servlet-name>AddFuelTypeServlet</servlet-name>
+    <servlet-class>com.fuel.servlet.AddFuelTypeServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AddFuelTypeServlet</servlet-name>
+    <url-pattern>/AddFuelTypeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CreateOfferServlet</servlet-name>
+    <servlet-class>com.fuel.servlet.CreateOfferServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>CreateOfferServlet</servlet-name>
+    <url-pattern>/CreateOfferServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteOfferServlet</servlet-name>
+    <servlet-class>com.fuel.servlet.DeleteOfferServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteOfferServlet</servlet-name>
+    <url-pattern>/DeleteOfferServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>PublicOfferServlet</servlet-name>
+    <servlet-class>com.fuel.servlet.PublicOfferServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>PublicOfferServlet</servlet-name>
+    <url-pattern>/PublicOfferServlet</url-pattern>
+</servlet-mapping>
+
+    
+</web-app>
+
